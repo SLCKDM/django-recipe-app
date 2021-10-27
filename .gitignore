@@ -1,3 +1,7 @@
+#self
+local_settings.py
+app/manage.py
+
 # Byte-compiled  optimized  DLL files
 __pycache__
 .py[cod]
