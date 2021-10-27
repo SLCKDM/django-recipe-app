@@ -4,6 +4,13 @@
     <title>index</title>
 </head>
 <body>
-    <h1>You did it bro!</h1>
+{% for recipe in recipes %}
+<p>Название: {{ recipe.title }}</p>
+<p>Описание: {{ recipe.content }}</p>
+{% for topping in recipe.toppings.all %}
+<p> - {{topping}}</p>
+{% endfor %}
+<br>
+{% endfor %}
 </body>
 </html>
