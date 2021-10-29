@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\WATER\\iCloudDrive\\Study\\Y_Lab\\project\\venv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\WATER\\iCloudDrive\\Study\\Y_Lab\\project\\venv\\Scripts\\python.exe",
+    "python.linting.enabled": true
 }

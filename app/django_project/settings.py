@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 from os import environ
-# from app.django_project.settings import DEBUG
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -124,6 +123,8 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "static"
 
+# Media files (CSS, JavaScript, Images)
+# Оust in case
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 

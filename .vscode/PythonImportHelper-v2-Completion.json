@@ -129,53 +129,11 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "mark_safe",
-        "importPath": "django.utils.html",
-        "description": "django.utils.html",
-        "isExtraImport": true,
-        "detail": "django.utils.html",
-        "documentation": {}
-    },
-    {
-        "label": "itertools",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "itertools",
-        "description": "itertools",
-        "detail": "itertools",
-        "documentation": {}
-    },
-    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "django_filters",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django_filters",
-        "description": "django_filters",
-        "detail": "django_filters",
-        "documentation": {}
-    },
-    {
-        "label": "ModelForm",
-        "importPath": "django.forms",
-        "description": "django.forms",
-        "isExtraImport": true,
-        "detail": "django.forms",
         "documentation": {}
     },
     {
@@ -192,14 +150,6 @@
         "description": "recipes.views",
         "isExtraImport": true,
         "detail": "recipes.views",
-        "documentation": {}
-    },
-    {
-        "label": "EmptyQuerySet",
-        "importPath": "django.db.models.query",
-        "description": "django.db.models.query",
-        "isExtraImport": true,
-        "detail": "django.db.models.query",
         "documentation": {}
     },
     {
@@ -547,7 +497,7 @@
         "kind": 5,
         "importPath": "app.django_project.settings",
         "description": "app.django_project.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\nMEDIA_URL = \"/media/\"",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\n# Media files (CSS, JavaScript, Images)",
         "detail": "app.django_project.settings",
         "documentation": {}
     },
@@ -556,7 +506,7 @@
         "kind": 5,
         "importPath": "app.django_project.settings",
         "description": "app.django_project.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\n# Media files (CSS, JavaScript, Images)\n# Оust in case",
         "detail": "app.django_project.settings",
         "documentation": {}
     },
@@ -565,7 +515,7 @@
         "kind": 5,
         "importPath": "app.django_project.settings",
         "description": "app.django_project.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\n# Media files (CSS, JavaScript, Images)\n# Оust in case\nMEDIA_URL = \"/media/\"",
         "detail": "app.django_project.settings",
         "documentation": {}
     },
@@ -574,7 +524,7 @@
         "kind": 5,
         "importPath": "app.django_project.settings",
         "description": "app.django_project.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\n# Media files (CSS, JavaScript, Images)\n# Оust in case\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"",
         "detail": "app.django_project.settings",
         "documentation": {}
     },
@@ -583,7 +533,7 @@
         "kind": 5,
         "importPath": "app.django_project.settings",
         "description": "app.django_project.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\n# Media files (CSS, JavaScript, Images)\n# Оust in case\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type",
         "detail": "app.django_project.settings",
         "documentation": {}
     },
@@ -592,7 +542,7 @@
         "kind": 5,
         "importPath": "app.django_project.settings",
         "description": "app.django_project.settings",
-        "peekOfCode": "STATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = \"/static/\"\nSTATIC_ROOT = BASE_DIR / \"static\"\n# Media files (CSS, JavaScript, Images)\n# Оust in case\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "app.django_project.settings",
         "documentation": {}
     },
@@ -601,7 +551,7 @@
         "kind": 5,
         "importPath": "app.django_project.settings",
         "description": "app.django_project.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR / \"static\"\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / \"static\"\n# Media files (CSS, JavaScript, Images)\n# Оust in case\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "app.django_project.settings",
         "documentation": {}
     },
@@ -673,7 +623,7 @@
         "kind": 6,
         "importPath": "app.recipes.admin",
         "description": "app.recipes.admin",
-        "peekOfCode": "class ToppingAdmin(admin.ModelAdmin):\n    search_fields = ('name',)\n    list_filter = ('name',)\n@admin.display(description='Name')\ndef get_toppings(obj):\n    return tuple(obj.toppings.all())\nclass CookRecipeAdmin(admin.ModelAdmin):\n    list_display = ('title', get_toppings)\n    search_fields = ('title',)\nadmin.site.register(CookRecipe, CookRecipeAdmin)",
+        "peekOfCode": "class ToppingAdmin(admin.ModelAdmin):\n    \"\"\" cutomizing Topping model in admin panel \"\"\"\n    list_filter = ('name',)\n    search_fields = ('name',)\n@admin.display(description='Ингредиенты')\ndef get_toppings(obj):\n    \"\"\" function that returns toppings user in recipe \"\"\"\n    return tuple(obj.toppings.all())\nclass CookRecipeAdmin(admin.ModelAdmin):\n    \"\"\" cutomizing CookRecipe model in admin panel \"\"\"",
         "detail": "app.recipes.admin",
         "documentation": {}
     },
@@ -682,7 +632,7 @@
         "kind": 6,
         "importPath": "app.recipes.admin",
         "description": "app.recipes.admin",
-        "peekOfCode": "class CookRecipeAdmin(admin.ModelAdmin):\n    list_display = ('title', get_toppings)\n    search_fields = ('title',)\nadmin.site.register(CookRecipe, CookRecipeAdmin)\nadmin.site.register(Topping, ToppingAdmin)",
+        "peekOfCode": "class CookRecipeAdmin(admin.ModelAdmin):\n    \"\"\" cutomizing CookRecipe model in admin panel \"\"\"\n    list_display = ('title', get_toppings)\n    search_fields = ('title',)\n# register models and cutomization in admin panel\nadmin.site.register(CookRecipe, CookRecipeAdmin)\nadmin.site.register(Topping, ToppingAdmin)",
         "detail": "app.recipes.admin",
         "documentation": {}
     },
@@ -691,7 +641,7 @@
         "kind": 2,
         "importPath": "app.recipes.admin",
         "description": "app.recipes.admin",
-        "peekOfCode": "def get_toppings(obj):\n    return tuple(obj.toppings.all())\nclass CookRecipeAdmin(admin.ModelAdmin):\n    list_display = ('title', get_toppings)\n    search_fields = ('title',)\nadmin.site.register(CookRecipe, CookRecipeAdmin)\nadmin.site.register(Topping, ToppingAdmin)",
+        "peekOfCode": "def get_toppings(obj):\n    \"\"\" function that returns toppings user in recipe \"\"\"\n    return tuple(obj.toppings.all())\nclass CookRecipeAdmin(admin.ModelAdmin):\n    \"\"\" cutomizing CookRecipe model in admin panel \"\"\"\n    list_display = ('title', get_toppings)\n    search_fields = ('title',)\n# register models and cutomization in admin panel\nadmin.site.register(CookRecipe, CookRecipeAdmin)\nadmin.site.register(Topping, ToppingAdmin)",
         "detail": "app.recipes.admin",
         "documentation": {}
     },
@@ -705,20 +655,11 @@
         "documentation": {}
     },
     {
-        "label": "RecipeFilter",
-        "kind": 6,
-        "importPath": "app.recipes.filters",
-        "description": "app.recipes.filters",
-        "peekOfCode": "class RecipeFilter(django_filters.FilterSet):\n    def __init__(self, *args, **kwargs):\n        super(RecipeFilter, self).__init__(*args, **kwargs)\n        self.fields['toppings'].label = \"toppings\"\n    class Meta:\n        model = CookRecipe\n        fields = {\n                'title': ['exact', 'icontains'],\n                'content': ['exact', 'icontains'],\n                'toppings': ['exact', 'icontains'],",
-        "detail": "app.recipes.filters",
-        "documentation": {}
-    },
-    {
         "label": "Topping",
         "kind": 6,
         "importPath": "app.recipes.models",
         "description": "app.recipes.models",
-        "peekOfCode": "class Topping(models.Model):\n    \"\"\" Ингридиент \"\"\"\n    name = models.CharField(max_length=50, verbose_name='Ингридиент', unique=True)\n    class Meta:\n        ordering = ['name']\n        verbose_name=\"Ингридиент\"\n        verbose_name_plural=\"Ингридиенты\"\n    def __str__(self):\n        return self.name.lower()\nclass CookRecipe(models.Model):",
+        "peekOfCode": "class Topping(models.Model):\n    \"\"\" Topping model\n    :name: is a textform, that takes unique igridient name\n    \"\"\"\n    name = models.CharField(\n        max_length=50,\n        verbose_name='Ингридиент',\n        unique=True\n    )\n    class Meta:",
         "detail": "app.recipes.models",
         "documentation": {}
     },
@@ -727,7 +668,7 @@
         "kind": 6,
         "importPath": "app.recipes.models",
         "description": "app.recipes.models",
-        "peekOfCode": "class CookRecipe(models.Model):\n    \"\"\" Рецепт \"\"\"\n    title = models.CharField(max_length=50, verbose_name='Рецепт')\n    content = models.TextField(max_length=512, verbose_name='Описание')\n    toppings = models.ManyToManyField(\"Topping\", verbose_name='Ингридиенты', related_name='recipe_toppings')\n    class Meta:\n        ordering = ['title']\n        verbose_name=\"Рецепт\"\n        verbose_name_plural=\"Рецепты\"\n    def __str__(self):",
+        "peekOfCode": "class CookRecipe(models.Model):\n    \"\"\" Topping model\n    :title: is a textform, that takes recipe title\n    :content: recipe description\n    :toppings: many to many field, takes chosen \n    toppings from Topping model\n    \"\"\"\n    title = models.CharField(max_length=50, verbose_name='Рецепт')\n    content = models.TextField(max_length=512, verbose_name='Описание')\n    toppings = models.ManyToManyField(",
         "detail": "app.recipes.models",
         "documentation": {}
     },
@@ -741,11 +682,20 @@
         "documentation": {}
     },
     {
+        "label": "recipes_response",
+        "kind": 2,
+        "importPath": "app.recipes.views",
+        "description": "app.recipes.views",
+        "peekOfCode": "def recipes_response(search_query):\n    \"\"\" processing the request \n    returns recipe objects that contain requested query \n    \"\"\"\n    q1 = CookRecipe.objects.filter(title__icontains=search_query)\n    try:\n        q2 = CookRecipe.objects.filter(\n            toppings__in=[Topping.objects.get(name__icontains=search_query).id])\n    except:\n        q2 = CookRecipe.objects.none()",
+        "detail": "app.recipes.views",
+        "documentation": {}
+    },
+    {
         "label": "index",
         "kind": 2,
         "importPath": "app.recipes.views",
         "description": "app.recipes.views",
-        "peekOfCode": "def index(request):\n    default = CookRecipe.objects.all()\n    q = request.GET.get('search')\n    if q:\n        q1 = CookRecipe.objects.filter(title__icontains=q)\n        try:\n            q2 = CookRecipe.objects.filter(toppings__in=[Topping.objects.get(name__icontains=q).id])\n        except:\n            q2 = CookRecipe.objects.none()\n        recipes = q1.union(q2)",
+        "peekOfCode": "def index(request):\n    \"\"\" Root url view \n    if 'search' GET request were called returns also 'search' query result using\n    the function recipes_query()\n    \"\"\"\n    recipes = CookRecipe.objects.all()\n    request_query = request.GET.get('search')\n    if request_query:\n        recipes = recipes_response(request_query)\n    context = {",
         "detail": "app.recipes.views",
         "documentation": {}
     },

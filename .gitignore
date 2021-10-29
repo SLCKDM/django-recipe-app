@@ -1,7 +1,6 @@
 # self #
 local_settings.py
-manage.py
-.idea/
+.idea/*
 
 # Django #
 *.log

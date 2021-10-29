@@ -1,21 +1,25 @@
 from django.contrib import admin
 from .models import CookRecipe, Topping
-from django.utils.html import mark_safe
-import itertools
+
 
 class ToppingAdmin(admin.ModelAdmin):
-    search_fields = ('name',)
+    """ cutomizing Topping model in admin panel """
     list_filter = ('name',)
-    
+    search_fields = ('name',)
 
-@admin.display(description='Name')
+
+@admin.display(description='Ингредиенты')
 def get_toppings(obj):
+    """ function that returns toppings user in recipe """
     return tuple(obj.toppings.all())
-class CookRecipeAdmin(admin.ModelAdmin):
 
+
+class CookRecipeAdmin(admin.ModelAdmin):
+    """ cutomizing CookRecipe model in admin panel """
     list_display = ('title', get_toppings)
     search_fields = ('title',)
 
 
+# register models and cutomization in admin panel
 admin.site.register(CookRecipe, CookRecipeAdmin)
 admin.site.register(Topping, ToppingAdmin)
