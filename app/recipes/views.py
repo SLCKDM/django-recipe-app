@@ -5,6 +5,7 @@ from .models import CookRecipe, Topping
 
 def recipes_response(search_query):
     """ processing the request 
+    
     returns recipe objects that contain requested query 
     """
     q1 = CookRecipe.objects.filter(title__icontains=search_query)

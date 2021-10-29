@@ -1,0 +1,17 @@
+{% if recipes %} {% for recipe in recipes %}
+<div class="recipe_post">
+    <p class="title">Название: {{ recipe.title }}</p>
+    <hr style="width: 50%; text-align: left; margin-left: 0" />
+    <p>Описание: {{ recipe.content }}</p>
+    <hr style="width: 50%; text-align: left; margin-left: 0" />
+    {% for topping in recipe.toppings.all %}
+    <p>• {{topping}}</p>
+    {% endfor %}
+</div>
+{% endfor %} {% else %}
+<p class="not-found">
+    К сожалению, рецептов с таким названием и/или ингредиентами у нас пока что нет
+    :(
+</p>
+<a href="{% url 'home' %}" class="btn-back">назад</a>
+{% endif %}

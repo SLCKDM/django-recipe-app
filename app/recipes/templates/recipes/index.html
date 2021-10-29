@@ -16,38 +16,10 @@
 
 <body>
     <!-- start of search form -->
-    <nav class="navbar fixed-top navbar-light bg-light">
-        <form class="container-fluid">
-            <div class="input-group mb-2 dark">
-                <button class="btn btn-outline-secondary dark" type="submit" id="button-addon1">
-                    Найти
-                </button>
-                <input type="text" name="search" class="form-control" placeholder="Рецепт или ингридиент"
-                    aria-describedby="button-addon1" />
-            </div>
-        </form>
-    </nav>
+        {% include 'recipes/navigation.html' %}
     <!-- end of search form -->
     <div class="page">
-        <!-- start recipe -->
-        {% if recipes %} {% for recipe in recipes %}
-        <div class="recipe_post">
-            <p class="title">Название: {{ recipe.title }}</p>
-            <hr style="width: 50%; text-align: left; margin-left: 0" />
-            <p>Описание: {{ recipe.content }}</p>
-            <hr style="width: 50%; text-align: left; margin-left: 0" />
-            {% for topping in recipe.toppings.all %}
-            <p>• {{topping}}</p>
-            {% endfor %}
-        </div>
-        {% endfor %} {% else %}
-        <p class="not-found">
-            К сожалению, рецептов с таким названием и/или ингредиентами у нас пока
-            что нет :(
-        </p>
-        <a href="{% url 'home' %}" class="btn-back">назад</a>
-        {% endif %}
-        <!-- end recipe -->
+        {% include "recipes/recipes.html" %}
     </div>
 </body>
 
