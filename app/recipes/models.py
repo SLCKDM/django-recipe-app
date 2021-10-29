@@ -8,7 +8,7 @@ class Topping(models.Model):
     """
     name = models.CharField(
         max_length=50,
-        verbose_name='Ингридиент',
+        verbose_name='Ингредиент',
         unique=True
     )
 
@@ -20,8 +20,8 @@ class Topping(models.Model):
         :verbose_name_plural: name in the panel in plural
         """
         ordering = ['name']
-        verbose_name = "Ингридиент"
-        verbose_name_plural = "Ингридиенты"
+        verbose_name = "Ингредиент"
+        verbose_name_plural = "Ингредиенты"
 
     def __str__(self):
         """ object representation """
@@ -29,7 +29,7 @@ class Topping(models.Model):
 
 
 class CookRecipe(models.Model):
-    """ Topping model
+    """ CookRecipe model
 
     :title: is a textform, that takes recipe title
     :content: recipe description
@@ -40,7 +40,7 @@ class CookRecipe(models.Model):
     content = models.TextField(max_length=512, verbose_name='Описание')
     toppings = models.ManyToManyField(
         "Topping",
-        verbose_name='Ингридиенты',
+        verbose_name='Ингредиенты',
         related_name='recipe_toppings'
     )
 
